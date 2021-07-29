@@ -1,0 +1,282 @@
+  body{
+      background:black;
+      
+      height: 100%;
+      align-items:  center;
+      justify-content: center;
+      
+  }
+
+    
+
+  .container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    top: 45%;
+    right: 29%;
+      
+      padding: 25px 30px;
+      width: 800px;
+      color: rgb(72, 255, 0);
+      text-align: center;
+      margin 30px auto;
+      border-radius: 45%;  
+      letter-spacing: 6px;
+      font-size: 2em;
+      
+  }
+
+
+  .photo{
+      position: relative;
+  
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .photo:hover {
+      color : purple;
+      
+      box-shadow: 0 0 40px purple, 0 0 80px yellow, 0 0 160px blueviolet;
+  }
+  h1,
+  h2,
+  h3 {
+      font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+      font-weight:100;
+      font size: 2.5 rem;
+      text-transform:: capitalize;
+  }
+
+
+      
+  #seconds,
+  #tens{
+      font-size: 2em;
+  }
+  button { 
+      width: 150px;
+      height: 50px;
+      letter-spacing: 5px;
+      overflow: hidden;
+      transition: 1s;
+      text-decoration: none;
+      font-size: 28px;
+      text-transform:uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      letter-spacing: 4px;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+      
+    
+  } 
+
+
+
+  button:hover {
+    color: white;
+    background: #000000;
+    box-shadow: 0 0 40px #8a21f3, 0 0 80px #f321e2, 0 0 160px #f321e2;
+    
+  }
+
+
+
+  a{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    top: 30%;
+    right: 40%;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #5bf403;
+    /* text-transform: uppercase; */
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 1s;
+    text-decoration: none;
+    font-size: 3.5em;
+    text-transform:uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    
+    
+
+
+
+
+  }
+
+  a:hover{
+    color: white;
+    background: #000000;
+    box-shadow: 0 0 40px #eb4200, 0 0 80px #87f321, 0 0 160px #ddd2dc;
+    
+
+
+  }
+
+
+  .clock {
+    position:absolute;
+    top: 15%;
+    right: 36%;
+    font-size: 3em;
+    color: #03e9f4;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+    
+
+
+  }
+
+  .clock::before {
+    content: "Current  Time :  ";
+    color: blue;
+    letter-spacing: 4px;
+   
+    
+    
+  }
+
+
+
+
+
+
+  a span
+  {
+    position: absolute;
+    display: block;
+
+  }
+
+  a span:nth-last-child(1)
+  {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+  }
+
+  @keyframes animate1
+  {
+      0%
+      {
+        left: -100%;
+      }
+      50% ,100%
+      {
+        left: 100%;
+      }
+
+    
+  }
+
+
+
+
+  a span:nth-last-child(2)
+  {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+  }
+
+  @keyframes animate2
+  {
+      0%
+      {
+        top: -100%;
+      }
+      50% ,100%
+      {
+        top: 100%;
+      }
+
+    
+  }
+
+
+
+
+
+
+  a span:nth-last-child(3)
+  {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes animate3
+  {
+      0%
+      {
+        right: -100%;
+      }
+      50% ,100%
+      {
+        right: 100%;
+      }
+
+    
+  }
+
+
+
+
+  a span:nth-last-child(4)
+  {
+    bottom: -100;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+  }
+
+  @keyframes animate4
+  {
+      0%
+      {
+        bottom: -100%;
+      }
+      50% ,100%
+      {
+        bottom: 100%;
+      }
+
+    
+  }
+
+
+
+  
+    
+    
+    
+    
+    
+
+
