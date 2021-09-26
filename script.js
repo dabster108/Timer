@@ -58,8 +58,7 @@ window.onload = function () {
     
   
   }
-
-  function clock() {
+function clock() {
     var time = new Date(),
         
     
